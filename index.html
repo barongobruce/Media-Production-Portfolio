@@ -4,78 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bruce Visuals</title>
-  <link rel="stylesheet" href="style.css" />
 
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
 
   <!-- Font Awesome for social icons -->
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
   />
-
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #101032;
-      color: #550a0a;
-    }
-    header {
-      background: #101032;
-      color: #ffffff;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #fff;
-      border-radius: 8px;
-    }
-    h2 {
-      text-align: center;
-    }
-    .services ul {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-    .services li {
-      background: #eee;
-      padding: 0.5rem 1rem;
-      border-radius: 6px;
-    }
-    .social {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .social a {
-      color: #111;
-      font-size: 2rem;
-      margin: 0 10px;
-      transition: color 0.3s;
-    }
-    .social a:hover {
-      color: #25D366; /* WhatsApp green on hover */
-    }
-  </style>
 </head>
-<body>
 
+<body>
   <header>
     <h1>Bruce Visuals</h1>
     <nav>
       <a href="#services">Services</a>
+      <a href="#gallery">Gallery</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -94,13 +39,12 @@
 
   <section id="gallery">
     <h2>Gallery</h2>
-    <p style="text-align:center;">(Add your photos or video embeds here.)</p>
+    <div id="gallery-container" class="gallery"></div>
   </section>
 
   <section id="contact">
     <h2>Contact Us</h2>
     <div class="social">
-      <!-- Replace with your actual handles -->
       <a href="https://wa.me/254710802808" target="_blank" aria-label="WhatsApp">
         <i class="fab fa-whatsapp"></i>
       </a>
@@ -110,6 +54,8 @@
     </div>
   </section>
 
+  <!-- JavaScript to load gallery -->
+  <script src="script.js"></script>
 </body>
 </html>
 
