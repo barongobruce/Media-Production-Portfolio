@@ -29,7 +29,7 @@ Date: September 2025
 ---
 
 ## Live Preview
-- Frontend (Netlify): [Your Netlify URL here]  
+- Frontend (Netlify):  calm-sorbet-e4a9ca.netlify.app
 - JSON Gallery Data (Render): [Your Render URL here]  
 
 ---
@@ -46,3 +46,8 @@ Date: September 2025
 ```bash
 git clone https://github.com/barongobruce/Media-Production-Portfolio.git
 cd Media-Production-Portfolio
+
+
+
+## Contacts
+-brosnanbarongo@gmail.com
