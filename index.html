@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Bruce Visuals</title>
-
-  <!-- External CSS -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<link rel="stylesheet" href="css/style.css">
 
-  <!-- Font Awesome for social icons -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-  />
 </head>
-
 <body>
   <header>
-    <h1>Bruce Visuals</h1>
+    <h1>Bruce Focus</h1>
     <nav>
       <a href="#services">Services</a>
       <a href="#gallery">Gallery</a>
@@ -32,13 +27,21 @@
       <li>Outdoors</li>
       <li>Weddings</li>
       <li>Baby Shower</li>
-      <li>Ruracio</li>
       <li>Corporate</li>
     </ul>
   </section>
 
   <section id="gallery">
     <h2>Gallery</h2>
+
+    <div class="controls">
+      <input id="search" type="search" placeholder="Search captions..." />
+      <select id="category-filter">
+        <option value="All">All Categories</option>
+      </select>
+      <button id="clear-filters" title="Clear filters">Clear</button>
+    </div>
+
     <div id="gallery-container" class="gallery"></div>
   </section>
 
@@ -54,8 +57,6 @@
     </div>
   </section>
 
-  <!-- JavaScript to load gallery -->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
-

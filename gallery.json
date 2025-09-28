@@ -1,16 +1,25 @@
 [
-  {
-    "src": "images/photo1.jpg",
-    "caption": "Studio Portrait"
-  },
-  {
-    "src": "images/photo2.jpg",
-    "caption": "Outdoor Session"
-  },
-  {
-    "src": "images/photo3.jpg",
-    "caption": "Wedding Moment"
-  }
+  { "src": "images/1.jpg", "caption": "Corporate", "category": "corporate" },
+  { "src": "images/2.jpg", "caption": "Corporate", "category": "corporate" },
+  { "src": "images/3.jpg", "caption": "Corporate", "category": "corporate" },
+  { "src": "images/4.jpg", "caption": "Corporate", "category": "corporate" },
+  
+  { "src": "images/5.jpg", "caption": "Wedding", "category": "wedding" },
+  { "src": "images/6.jpg", "caption": "Wedding", "category": "wedding" },
+  { "src": "images/7.jpg", "caption": "Wedding", "category": "wedding" },
+
+  { "src": "images/8.jpg", "caption": "Studio", "category": "studio" },
+  { "src": "images/9.jpg", "caption": "Studio", "category": "studio" },
+  { "src": "images/10.jpg", "caption": "Studio", "category": "studio" },
+  { "src": "images/11.jpg", "caption": "Studio", "category": "studio" },
+
+  { "src": "images/12.jpg", "caption": "Baby Shower", "category": "babyshower" },
+  { "src": "images/13.jpg", "caption": "Baby Shower", "category": "babyshower" },
+  { "src": "images/14.jpg", "caption": "Baby Shower", "category": "babyshower" },
+  { "src": "images/15.jpg", "caption": "Baby Shower", "category": "babyshower" },
+
+  { "src": "images/16.jpg", "caption": "Outdoors", "category": "outdoors" },
+  { "src": "images/17.jpg", "caption": "Outdoors", "category": "outdoors" },
+  { "src": "images/18.jpg", "caption": "Outdoors", "category": "outdoors" },
+  { "src": "images/19.jpg", "caption": "Outdoors", "category": "outdoors" }
 ]
-
-
